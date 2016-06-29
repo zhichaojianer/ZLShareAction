@@ -2,6 +2,8 @@
 
 ZLShareAction是在知了项目开发过程中基于ShareSDK抽象出来，目的在于以注入的形式实现分享。
 使用示例：
+
+
 NSString *contenturl = @"http://www.imzhiliao.com";
 NSArray *shareItems = @[
 @{
