@@ -1,0 +1,6 @@
+framework module Pods_ZLShareAction_Tests {
+  umbrella header "Pods-ZLShareAction_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

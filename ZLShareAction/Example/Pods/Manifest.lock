@@ -1,0 +1,16 @@
+PODS:
+  - ZLShareAction (0.1.0)
+
+DEPENDENCIES:
+  - ZLShareAction (from `../`)
+
+EXTERNAL SOURCES:
+  ZLShareAction:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ZLShareAction: 75aa1d1f7157bf89cbac14e246f036b5c3e91b17
+
+PODFILE CHECKSUM: 5a5d4ba620499f55c303c65d15a73275eabc68ed
+
+COCOAPODS: 1.0.1

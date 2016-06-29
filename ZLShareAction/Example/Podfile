@@ -1,0 +1,6 @@
+use_frameworks!
+target 'ZLShareAction_Tests' do
+  pod 'ZLShareAction', :path => '../'
+  
+  
+end

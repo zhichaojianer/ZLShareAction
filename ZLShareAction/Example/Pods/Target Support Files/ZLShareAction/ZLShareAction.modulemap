@@ -1,0 +1,6 @@
+framework module ZLShareAction {
+  umbrella header "ZLShareAction-umbrella.h"
+
+  export *
+  module * { export * }
+}

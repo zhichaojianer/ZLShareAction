@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16C7A76C3871A289E259E3DB46327DB5 /* ZLShareAction-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD7B03A354C6FF5D2B20E82E77E53794 /* ZLShareAction-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		567B7D9F5A3669E72D701CCC8125008A /* Pods-ZLShareAction_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB5974591A5B91129D2CE6439889DF0 /* Pods-ZLShareAction_Tests-dummy.m */; };
+		94DEC0ED25E66EFEB3A45879E263AA56 /* ZLShareAction-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F92E356A69829B364AE22D1B903BC97A /* ZLShareAction-dummy.m */; };
+		B887BCCD8184CE7CB4D930CAA822A7C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		B90BB78004CB3995FE892D40E336720B /* Pods-ZLShareAction_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D7E8B4F16CFC1FB404E50171508FF380 /* Pods-ZLShareAction_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB11FD82923D73B57721282E45DE13DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		F7C02A20CFF8F62D34D8DE432DCC7361 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = AB037F06FA61688C1AE05026724F742F /* ReplaceMe.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		575A8D0B8B911056B746F82FA4F5FDAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F5DCE904B32E4BE99DEBD175C443271;
+			remoteInfo = ZLShareAction;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		121A503603BB7D931B50D556AED73EBE /* Pods-ZLShareAction_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZLShareAction_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		139847C585D03AB2F1C8D378F924E548 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D18E54FE44DF58E87AE2AEC3B3A01DD /* Pods-ZLShareAction_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ZLShareAction_Tests.modulemap"; sourceTree = "<group>"; };
+		340FB32CF63E38C2A1CB7A6EF3CE0250 /* Pods-ZLShareAction_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZLShareAction_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4D3D76F86B2FA6779039D0A39EFC3553 /* Pods-ZLShareAction_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZLShareAction_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5799FA2057C4D8D5BA7D7E2D5AFAD034 /* ZLShareAction-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZLShareAction-prefix.pch"; sourceTree = "<group>"; };
+		5AB5974591A5B91129D2CE6439889DF0 /* Pods-ZLShareAction_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZLShareAction_Tests-dummy.m"; sourceTree = "<group>"; };
+		89553AB68E60C5A8F541CBBD5602F76C /* Pods-ZLShareAction_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZLShareAction_Tests-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1877DDA25216B88ACA37E9C1225AB7F /* Pods_ZLShareAction_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZLShareAction_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A975F2F5C0E82306EF211A48CB3BF3AA /* Pods-ZLShareAction_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZLShareAction_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		AB037F06FA61688C1AE05026724F742F /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		C7BD48A8E1C5FC57488CD0C48C8D56CE /* ZLShareAction.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ZLShareAction.modulemap; sourceTree = "<group>"; };
+		CC872DB74B251E51784EEF9FCE69798D /* ZLShareAction.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZLShareAction.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D199B68B646826D2539A5909D9F29722 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7E8B4F16CFC1FB404E50171508FF380 /* Pods-ZLShareAction_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZLShareAction_Tests-umbrella.h"; sourceTree = "<group>"; };
+		DD7B03A354C6FF5D2B20E82E77E53794 /* ZLShareAction-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZLShareAction-umbrella.h"; sourceTree = "<group>"; };
+		EA98A14AE29888880FF37BD2E4EB17A5 /* Pods-ZLShareAction_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZLShareAction_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		EFB8FC8624579F16520F92FC6564D767 /* ZLShareAction.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZLShareAction.xcconfig; sourceTree = "<group>"; };
+		F92E356A69829B364AE22D1B903BC97A /* ZLShareAction-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZLShareAction-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CF4360EF5EFE129E3DFCB45DA0D5561 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB11FD82923D73B57721282E45DE13DF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93396619B7118209DFF47D1ECDA9741D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B887BCCD8184CE7CB4D930CAA822A7C6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0328A1BAFB837B87B8BCA0D82AC73740 /* Pods-ZLShareAction_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D199B68B646826D2539A5909D9F29722 /* Info.plist */,
+				1D18E54FE44DF58E87AE2AEC3B3A01DD /* Pods-ZLShareAction_Tests.modulemap */,
+				121A503603BB7D931B50D556AED73EBE /* Pods-ZLShareAction_Tests-acknowledgements.markdown */,
+				4D3D76F86B2FA6779039D0A39EFC3553 /* Pods-ZLShareAction_Tests-acknowledgements.plist */,
+				5AB5974591A5B91129D2CE6439889DF0 /* Pods-ZLShareAction_Tests-dummy.m */,
+				A975F2F5C0E82306EF211A48CB3BF3AA /* Pods-ZLShareAction_Tests-frameworks.sh */,
+				89553AB68E60C5A8F541CBBD5602F76C /* Pods-ZLShareAction_Tests-resources.sh */,
+				D7E8B4F16CFC1FB404E50171508FF380 /* Pods-ZLShareAction_Tests-umbrella.h */,
+				EA98A14AE29888880FF37BD2E4EB17A5 /* Pods-ZLShareAction_Tests.debug.xcconfig */,
+				340FB32CF63E38C2A1CB7A6EF3CE0250 /* Pods-ZLShareAction_Tests.release.xcconfig */,
+			);
+			name = "Pods-ZLShareAction_Tests";
+			path = "Target Support Files/Pods-ZLShareAction_Tests";
+			sourceTree = "<group>";
+		};
+		12FB628863C0B10A5333201A4DCC005A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				834D1573A1F282620CDA3FA293D489BF /* ZLShareAction */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3596F09C5FFA2CDBC551895132FFFA41 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				139847C585D03AB2F1C8D378F924E548 /* Info.plist */,
+				C7BD48A8E1C5FC57488CD0C48C8D56CE /* ZLShareAction.modulemap */,
+				EFB8FC8624579F16520F92FC6564D767 /* ZLShareAction.xcconfig */,
+				F92E356A69829B364AE22D1B903BC97A /* ZLShareAction-dummy.m */,
+				5799FA2057C4D8D5BA7D7E2D5AFAD034 /* ZLShareAction-prefix.pch */,
+				DD7B03A354C6FF5D2B20E82E77E53794 /* ZLShareAction-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZLShareAction";
+			sourceTree = "<group>";
+		};
+		37BD49E8123222604B55D62057E16580 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AB037F06FA61688C1AE05026724F742F /* ReplaceMe.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				12FB628863C0B10A5333201A4DCC005A /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				93E27334B0D1A0B60A844710D7A069E7 /* Products */,
+				C60517B5EAFEA8072E152A277FE30AEF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		834D1573A1F282620CDA3FA293D489BF /* ZLShareAction */ = {
+			isa = PBXGroup;
+			children = (
+				3596F09C5FFA2CDBC551895132FFFA41 /* Support Files */,
+				ECF7B68ECA7DE5655FF1F5AAAF99D88A /* ZLShareAction */,
+			);
+			name = ZLShareAction;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		93E27334B0D1A0B60A844710D7A069E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1877DDA25216B88ACA37E9C1225AB7F /* Pods_ZLShareAction_Tests.framework */,
+				CC872DB74B251E51784EEF9FCE69798D /* ZLShareAction.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C60517B5EAFEA8072E152A277FE30AEF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0328A1BAFB837B87B8BCA0D82AC73740 /* Pods-ZLShareAction_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		ECF7B68ECA7DE5655FF1F5AAAF99D88A /* ZLShareAction */ = {
+			isa = PBXGroup;
+			children = (
+				37BD49E8123222604B55D62057E16580 /* Classes */,
+			);
+			path = ZLShareAction;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		468681357DE0D55AA506FC412FB99395 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16C7A76C3871A289E259E3DB46327DB5 /* ZLShareAction-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED2C25B147C0A651DD4B8B730BE105FE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B90BB78004CB3995FE892D40E336720B /* Pods-ZLShareAction_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8F5DCE904B32E4BE99DEBD175C443271 /* ZLShareAction */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F1DC2A6C8384B734888F2B0D19DC9C7 /* Build configuration list for PBXNativeTarget "ZLShareAction" */;
+			buildPhases = (
+				DA08D0456B6E131F27AA22F768C10BE5 /* Sources */,
+				93396619B7118209DFF47D1ECDA9741D /* Frameworks */,
+				468681357DE0D55AA506FC412FB99395 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZLShareAction;
+			productName = ZLShareAction;
+			productReference = CC872DB74B251E51784EEF9FCE69798D /* ZLShareAction.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F47AD37A5C6AC2281C03C9DBE863D031 /* Pods-ZLShareAction_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 806070590381D25CF1548615CE6A6254 /* Build configuration list for PBXNativeTarget "Pods-ZLShareAction_Tests" */;
+			buildPhases = (
+				ECE5D081EF0CCA23EB45CC7EEC496E85 /* Sources */,
+				7CF4360EF5EFE129E3DFCB45DA0D5561 /* Frameworks */,
+				ED2C25B147C0A651DD4B8B730BE105FE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23CCD90DE76D47389AEE581DEF85C345 /* PBXTargetDependency */,
+			);
+			name = "Pods-ZLShareAction_Tests";
+			productName = "Pods-ZLShareAction_Tests";
+			productReference = A1877DDA25216B88ACA37E9C1225AB7F /* Pods_ZLShareAction_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 93E27334B0D1A0B60A844710D7A069E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F47AD37A5C6AC2281C03C9DBE863D031 /* Pods-ZLShareAction_Tests */,
+				8F5DCE904B32E4BE99DEBD175C443271 /* ZLShareAction */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA08D0456B6E131F27AA22F768C10BE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7C02A20CFF8F62D34D8DE432DCC7361 /* ReplaceMe.m in Sources */,
+				94DEC0ED25E66EFEB3A45879E263AA56 /* ZLShareAction-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECE5D081EF0CCA23EB45CC7EEC496E85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				567B7D9F5A3669E72D701CCC8125008A /* Pods-ZLShareAction_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23CCD90DE76D47389AEE581DEF85C345 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZLShareAction;
+			target = 8F5DCE904B32E4BE99DEBD175C443271 /* ZLShareAction */;
+			targetProxy = 575A8D0B8B911056B746F82FA4F5FDAB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01E7FD7DA00FE991BE93E649C5AADF12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA98A14AE29888880FF37BD2E4EB17A5 /* Pods-ZLShareAction_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ZLShareAction_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZLShareAction_Tests/Pods-ZLShareAction_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ZLShareAction_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49B67B22243B4CDD496B7B87AF9C2402 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 340FB32CF63E38C2A1CB7A6EF3CE0250 /* Pods-ZLShareAction_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ZLShareAction_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZLShareAction_Tests/Pods-ZLShareAction_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ZLShareAction_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7508FED3F3ECAE0252075D3BDDF318CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFB8FC8624579F16520F92FC6564D767 /* ZLShareAction.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ZLShareAction/ZLShareAction-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZLShareAction/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZLShareAction/ZLShareAction.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ZLShareAction;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7C28184711B9FE4DA17575A81C4D600E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFB8FC8624579F16520F92FC6564D767 /* ZLShareAction.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ZLShareAction/ZLShareAction-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZLShareAction/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZLShareAction/ZLShareAction.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ZLShareAction;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
+				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F1DC2A6C8384B734888F2B0D19DC9C7 /* Build configuration list for PBXNativeTarget "ZLShareAction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7508FED3F3ECAE0252075D3BDDF318CE /* Debug */,
+				7C28184711B9FE4DA17575A81C4D600E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		806070590381D25CF1548615CE6A6254 /* Build configuration list for PBXNativeTarget "Pods-ZLShareAction_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01E7FD7DA00FE991BE93E649C5AADF12 /* Debug */,
+				49B67B22243B4CDD496B7B87AF9C2402 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

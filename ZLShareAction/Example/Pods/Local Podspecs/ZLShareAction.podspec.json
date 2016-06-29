@@ -1,0 +1,22 @@
+{
+  "name": "ZLShareAction",
+  "version": "0.1.0",
+  "summary": "A short description of ZLShareAction.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/ZLShareAction",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "liuchao": "liuchao@imzhiliao.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/ZLShareAction.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ZLShareAction/Classes/**/*"
+}
