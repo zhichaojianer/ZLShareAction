@@ -5,24 +5,12 @@ ZLShareAction是在知了项目开发过程中基于ShareSDK抽象出来，目�
 
 
 NSString *contenturl = @"http://www.imzhiliao.com";
+
 NSArray *shareItems = @[
-@{
-@"title"      : @"知了",
+@{@"title"      : @"知了",
 @"image"      : [UIImage imageNamed:@"ShareSDK_cicada"],
 @"type"       : [NSNumber numberWithInteger:1000],
 @"customItem" : [NSNumber numberWithBool:YES]
-},
-@{
-@"title"      : @"班级成员",
-@"image"      : [UIImage imageNamed:@"ShareSDK_classMembers"],
-@"type"       : [NSNumber numberWithInteger:2000],
-@"customItem" : [NSNumber numberWithBool:YES]
-},
-@{
-@"title"      : @"短信",
-@"image"      : [UIImage imageNamed:@"ShareSDK_SMS"],
-@"type"       : [NSNumber numberWithInteger:SSDKPlatformTypeSMS],
-@"customItem" : [NSNumber numberWithBool:NO]
 },
 @{
 @"title"      : @"微信好友",
@@ -31,27 +19,9 @@ NSArray *shareItems = @[
 @"customItem" : [NSNumber numberWithBool:NO]
 },
 @{
-@"title"      : @"微信朋友圈",
-@"image"      : [UIImage imageNamed:@"ShareSDK_wechatTimeLine"],
-@"type"       : [NSNumber numberWithInteger:SSDKPlatformSubTypeWechatTimeline],
-@"customItem" : [NSNumber numberWithBool:NO]
-},
-@{
-@"title"      : @"新浪微博",
-@"image"      : [UIImage imageNamed:@"ShareSDK_weibo"],
-@"type"       : [NSNumber numberWithInteger:SSDKPlatformTypeSinaWeibo],
-@"customItem" : [NSNumber numberWithBool:NO]
-},
-@{
 @"title"      : @"QQ好友",
 @"image"      : [UIImage imageNamed:@"ShareSDK_qq"],
 @"type"       : [NSNumber numberWithInteger:SSDKPlatformSubTypeQQFriend],
-@"customItem" : [NSNumber numberWithBool:NO]
-},
-@{
-@"title"      : @"QQ空间",
-@"image"      : [UIImage imageNamed:@"ShareSDK_qqzone"],
-@"type"       : [NSNumber numberWithInteger:SSDKPlatformSubTypeQZone],
 @"customItem" : [NSNumber numberWithBool:NO]
 }
 ];
